@@ -48,4 +48,4 @@ And inside of the jupyter notebook, try to give a target x and y position by usi
 
 # Link to reach to the JupyterNotebook #
 
-http://0.0.0.0:8888/notebooks/assignment_2.ipynb
+[http://0.0.0.0:8888/notebooks/assignment_2.ipynb](http://0.0.0.0:8888/notebooks/assignment_2.ipynb)
