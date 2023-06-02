@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classservice__goal_1_1_service" kind="class" language="Python" prot="public">
+    <compoundname>service_goal::Service</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classservice__goal_1_1_service_1a265cd0b013bc0259d0b68921c96214d4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>service_goal.Service::cancelled_goal</definition>
+        <argsstring></argsstring>
+        <name>cancelled_goal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="47" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classservice__goal_1_1_service_1a4709717ae4463d84a31911134107f0b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>service_goal.Service::reached_goal</definition>
+        <argsstring></argsstring>
+        <name>reached_goal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="48" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classservice__goal_1_1_service_1a9c20fdf90144f1ddf0f71b60037403a8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>service_goal.Service::srv</definition>
+        <argsstring></argsstring>
+        <name>srv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="51" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classservice__goal_1_1_service_1a1e85f02bfa0ec13cdbe33563cf03b448" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>service_goal.Service::sub_result</definition>
+        <argsstring></argsstring>
+        <name>sub_result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="54" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classservice__goal_1_1_service_1a0021d1a058971dfadce3422bfadcf166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def service_goal.Service.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function initialize the counters for golas reached and cancelled</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="39" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="39" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classservice__goal_1_1_service_1a24e5257f239b07afb4e6219a79551ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def service_goal.Service.result_callback</definition>
+        <argsstring>(self, msg)</argsstring>
+        <name>result_callback</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>msg</type>
+          <defname>msg</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function gets the status from the message and determine the goals reached or cancelled depends on to the status</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="56" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="56" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classservice__goal_1_1_service_1a50fd4cba97032751de3ef94a2630d4c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def service_goal.Service.data</definition>
+        <argsstring>(self, req)</argsstring>
+        <name>data</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>req</type>
+          <defname>req</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="73" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="73" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Service class includes __init__(self), result_callback functions and data. 
+
+
+   Callback function to set the actual robot&apos;s velocity</verbatim> </para>
+    </detaileddescription>
+    <location file="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" line="30" column="1" bodyfile="/root/Desktop/my_ros/src/assignment_2_2022/scripts/service_goal.py" bodystart="30" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classservice__goal_1_1_service_1a0021d1a058971dfadce3422bfadcf166" prot="public" virt="non-virtual"><scope>service_goal::Service</scope><name>__init__</name></member>
+      <member refid="classservice__goal_1_1_service_1a265cd0b013bc0259d0b68921c96214d4" prot="public" virt="non-virtual"><scope>service_goal::Service</scope><name>cancelled_goal</name></member>
+      <member refid="classservice__goal_1_1_service_1a50fd4cba97032751de3ef94a2630d4c2" prot="public" virt="non-virtual"><scope>service_goal::Service</scope><name>data</name></member>
+      <member refid="classservice__goal_1_1_service_1a4709717ae4463d84a31911134107f0b0" prot="public" virt="non-virtual"><scope>service_goal::Service</scope><name>reached_goal</name></member>
+      <member refid="classservice__goal_1_1_service_1a24e5257f239b07afb4e6219a79551ddf" prot="public" virt="non-virtual"><scope>service_goal::Service</scope><name>result_callback</name></member>
+      <member refid="classservice__goal_1_1_service_1a9c20fdf90144f1ddf0f71b60037403a8" prot="public" virt="non-virtual"><scope>service_goal::Service</scope><name>srv</name></member>
+      <member refid="classservice__goal_1_1_service_1a1e85f02bfa0ec13cdbe33563cf03b448" prot="public" virt="non-virtual"><scope>service_goal::Service</scope><name>sub_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
