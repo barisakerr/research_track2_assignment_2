@@ -45,3 +45,7 @@ roscore
 roslaunch assignment_2_2022 assignment_2.launch
 ```
 And inside of the jupyter notebook, try to give a target x and y position by using widgets and the button, after that you can observe the movement of the robot on graph and also on Gazebo. If the user will clik to the nearest obstacle button, he/she can see the where the nearest obstacle is and if the user click to the plot button he/she can observe the number of the reached and cancelled targets. 
+
+# Link to reach to the JupyterNotebook #
+
+http://0.0.0.0:8888/notebooks/assignment_2.ipynb
